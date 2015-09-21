@@ -1,0 +1,46 @@
+﻿.body_footer{
+	clear:both;
+	float:left;
+	margin-top:4px;
+	width:900px;
+	height:60px;
+	margin-left: auto;
+	margin-right: auto;
+	position:relative;
+	padding-top:10px;
+	background:transparent url('../img/1pxbg.gif') repeat-x 0 -480px;
+}
+
+.body_footer .bottom_container{
+	float:left;
+	margin-left:auto;
+	margin-right:auto;
+	width: 900px;
+	margin-top: 5px;
+}
+
+.body_footer .banner_logo{
+	position:absolute;
+	/**left:120px; modify by hanfei 2012/1/16 */
+	left:100px;
+	top: 10px;
+	display:block;
+	height:45px;
+	width:40px;
+	background:transparent url('../img/btn2.gif') no-repeat -142px -51px;
+	z-index:999;
+}
+
+.body_footer .bottom_text{
+	margin-top: 2px;
+	text-align:center;
+	width:900px;
+}
+
+.body_footer .bottom_text a{
+	color:black;
+}
+
+.body_footer .bottom_text a:hover{
+	text-decoration:none; /*for IE 6*/
+}
